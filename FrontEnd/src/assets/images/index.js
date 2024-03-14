@@ -21,6 +21,7 @@ const images = {
     longgo: require('./longbanggo.png'),
     avata: require('./avata.png'),
     zalo: require('./zalo.png'),
+    facebook: require('./facebook.png'),
     sucess: require('./sucess.png'),
     iron: require('./iron.png'),
     wood: require('./wood.png'),

@@ -15,16 +15,15 @@ function Footer() {
                 </div>
                 <div className={cx('email')}>
                     <FontAwesomeIcon className={cx('email-icon')} icon={faEnvelope}></FontAwesomeIcon>
-                    <span>cskn@gmail.com</span>
+                    <span>lamthanhanhquan2003@gmail.com</span>
                 </div>
             </div>
             <div className={cx('footer__body')}>
                 <div className={cx('col')}>
                     <h3 className={cx('title')}>Discover</h3>
                     <div className={cx('subtitle')}>
-                        <h4>Crested bird cage</h4>
-                        <h4>Warbler cage</h4>
-                        <h4>Parrot bird cage</h4>
+                        <h4>Mountain Timeshare</h4>
+                        <h4>Beach Timeshare</h4>
                     </div>
                 </div>
                 <div className={cx('col')}>
@@ -32,7 +31,6 @@ function Footer() {
                     <div className={cx('subtitle')}>
                         <h4>Log in/Register</h4>
                         <h4>Purchase history</h4>
-                        <h4>Address list</h4>
                     </div>
                 </div>
                 <div className={cx('col')}>
@@ -41,8 +39,8 @@ function Footer() {
                         <h4>Membership policy</h4>
                         <h4>Return policy</h4>
                         <h4>Warranty policy</h4>
-                        <h4>Shopping guide</h4>
-                        <h4>Product purchase suggestions</h4>
+                        <h4>Rent/Exchange guide</h4>
+                        <h4>Timeshare purchase suggestions</h4>
                         <h4>Frequently asked Questions</h4>
                     </div>
                 </div>

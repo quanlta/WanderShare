@@ -23,7 +23,7 @@ function Sale() {
         <div className={cx('container')}>
             <div className={cx('wrapper')}>
                 <div className={cx('text')}>
-                    <h2 className={cx('title')}>Bird cages are on sale</h2>
+                    <h2 className={cx('title')}>Timeshares are on sale</h2>
                     <img src={images.hoa}></img>
                 </div>
                 <div className={cx('thumb-wrapper')}>

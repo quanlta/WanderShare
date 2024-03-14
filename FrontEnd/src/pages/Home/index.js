@@ -99,11 +99,11 @@ function Home() {
                 <div className={cx('classify')}>
                     <div className={cx('row')}>
                         <div className={cx('text')}>
-                            <div className={cx('title')}>Metal Bird Cage</div>
+                            <div className={cx('title')}>Long Timeshare</div>
                             <div className={cx('des')}>
-                                Metals are generally more resistant to wear and corrosion than other materials such as
-                                wood. This means that metal bird cages can last longer and maintain better condition
-                                over time.
+                                XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                                XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                                xxxxxxxxxxx.
                             </div>
                             <Link to={'/timeshares'} className={cx('btn')}>
                                 Watch now
@@ -114,10 +114,11 @@ function Home() {
                     <div className={cx('row')}>
                         <img src={images.longgo}></img>
                         <div className={cx('text', 'woodcage')}>
-                            <div className={cx('title')}>Wooden Bird Cage</div>
+                            <div className={cx('title')}>Short Timeshare</div>
                             <div className={cx('des')}>
-                                Wooden bird cages often have a more natural and aesthetic beauty than metal or plastic
-                                cages. They can make your space cozy and in harmony with the natural environment.
+                                XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                                XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                                xxxxxxxxxxx.
                             </div>
                             <Link to={'/timeshares'} className={cx('btn')}>
                                 Watch now

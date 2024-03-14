@@ -29,8 +29,8 @@ function DefaultLayout({ children }) {
             <Header />
             <div className={cx('content')}>{children}</div>
             <FontAwesomeIcon icon={faArrowsUpToLine} className={cx('navigate')} onClick={scrollToTop}></FontAwesomeIcon>
-            <a href="https://zalo.me">
-                <img className={cx('zalo')} src={images.zalo}></img>
+            <a href="https://www.facebook.com/nhonpk123/">
+                <img className={cx('facebook')} src={images.facebook}></img>
             </a>
             <div className={cx('mes-logo')} onClick={() => setBox(!box)}>
                 <img src={images.logo}></img>
