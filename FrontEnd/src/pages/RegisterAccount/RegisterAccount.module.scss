@@ -1,0 +1,142 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url('./bg-overlay.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-box {
+    position: relative;
+    width: 400px;
+    height: 560px;
+    border: 10px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    /* backdrop-filter: blur(5px); */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+.inputbox {
+    position: relative;
+    margin-top: 20px;
+    width: 310px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+
+    label {
+        position: absolute;
+        top: 50%;
+        left: 5px;
+        transform: translateY(-50%);
+        color: rgb(0, 0, 0);
+        pointer-events: none;
+        transition: 0.5s;
+        font-size: 1rem;
+    }
+}
+input:focus ~ label,
+input:valid ~ label {
+    top: -5px;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    // border: none;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: black;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+.submit button {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background: black;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.register {
+    font-size: 0.9em;
+    color: black;
+    text-align: center;
+    margin: 20px 0 10px;
+
+    p a {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+    }
+
+    p a:hover {
+        text-decoration: underline;
+    }
+}
+
+.separator {
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 10px 0px;
+    background-color: #d4d4d4;
+
+    &::before {
+        content: 'Or';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-40%, -40%);
+        background-color: white;
+        color: black;
+        padding: 0 15px;
+    }
+}
+.error-message {
+    margin-top: 5px;
+    color: red;
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-start;
+}
+.fail-message {
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-size: 12px;
+}
+.success-message {
+    display: flex;
+    justify-content: center;
+    color: green;
+    font-size: 12px;
+}

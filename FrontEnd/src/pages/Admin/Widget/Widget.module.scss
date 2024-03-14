@@ -1,0 +1,242 @@
+.widget {
+    display: flex;
+    .total-user {
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+        padding: 32px 24px;
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        border-radius: 26px;
+        height: 150px;
+        margin-right: 50px;
+        .total-user-left,
+        .total-user-right {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .title {
+                font-weight: bold;
+                font-size: 14px;
+                color: rgb(160, 160, 160);
+            }
+
+            .counter {
+                font-size: 35px;
+                font-weight: 600;
+                margin-left: 18px;
+            }
+
+            .percentage {
+                width: max-content;
+                font-size: 20px;
+                color: rgb(16, 185, 129);
+                .percentage-in4 {
+                    font-size: 15px;
+                    margin-left: 6px;
+                    .percentage-in4-text {
+                        color: rgb(108, 115, 127);
+                        font-size: 13px;
+                        margin-left: 12px;
+                    }
+                }
+            }
+            .boder-icon {
+                background-color: rgb(16, 185, 129);
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                -moz-border-radius: 50%;
+                -webkit-border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .icon-total-users {
+                    font-size: 20px;
+                    color: rgb(255, 255, 255);
+                    position: relative;
+                }
+            }
+        }
+    }
+    .total-timeshare {
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+        padding: 32px 24px;
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        border-radius: 26px;
+        height: 150px;
+        margin-right: 50px;
+        .total-timeshare-left,
+        .total-timeshare-right {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .title {
+                font-weight: bold;
+                font-size: 14px;
+                color: rgb(160, 160, 160);
+            }
+
+            .counter {
+                font-size: 35px;
+                font-weight: 600;
+                margin-left: 18px;
+            }
+
+            .percentage {
+                width: max-content;
+                font-size: 20px;
+                color: rgb(16, 185, 129);
+                .percentage-in4 {
+                    font-size: 15px;
+                    margin-left: 6px;
+                    .percentage-in4-text {
+                        color: rgb(108, 115, 127);
+                        font-size: 13px;
+                        margin-left: 12px;
+                    }
+                }
+            }
+            .boder-icon {
+                background-color: rgb(247, 144, 9);
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                -moz-border-radius: 50%;
+                -webkit-border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .icon-total-timeshares {
+                    font-size: 20px;
+                    color: rgb(255, 255, 255);
+                    position: relative;
+                }
+            }
+        }
+    }
+    .budget {
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+        padding: 32px 24px;
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        border-radius: 26px;
+        height: 150px;
+        margin-right: 50px;
+        .budget-left,
+        .budget-right {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .title {
+                font-weight: bold;
+                font-size: 14px;
+                color: rgb(160, 160, 160);
+            }
+
+            .counter {
+                font-size: 35px;
+                font-weight: 600;
+                margin-left: 18px;
+            }
+
+            .percentage {
+                width: max-content;
+                font-size: 20px;
+                color: rgb(16, 185, 129);
+                .percentage-in4 {
+                    font-size: 15px;
+                    margin-left: 6px;
+                    .percentage-in4-text {
+                        color: rgb(108, 115, 127);
+                        font-size: 13px;
+                        margin-left: 12px;
+                    }
+                }
+            }
+            .boder-icon {
+                background-color: rgb(240, 68, 56);
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                -moz-border-radius: 50%;
+                -webkit-border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .icon-budgets {
+                    font-size: 20px;
+                    color: rgb(255, 255, 255);
+                    position: relative;
+                }
+            }
+        }
+    }
+    .total-timeshare-sold {
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+        padding: 32px 24px;
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        border-radius: 26px;
+        height: 150px;
+        .total-timeshare-sold-left,
+        .total-timeshare-sold-right {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .title {
+                font-weight: bold;
+                font-size: 14px;
+                color: rgb(160, 160, 160);
+            }
+
+            .counter {
+                font-size: 35px;
+                font-weight: 600;
+                margin-left: 18px;
+            }
+
+            .percentage {
+                width: max-content;
+                font-size: 20px;
+                color: rgb(16, 185, 129);
+                .percentage-in4 {
+                    font-size: 15px;
+                    margin-left: 6px;
+                    .percentage-in4-text {
+                        color: rgb(108, 115, 127);
+                        font-size: 13px;
+                        margin-left: 12px;
+                    }
+                }
+            }
+            .boder-icon {
+                background-color: rgb(99, 102, 241);
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                -moz-border-radius: 50%;
+                -webkit-border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .icon-total-timeshare-solds {
+                    font-size: 20px;
+                    color: rgb(255, 255, 255);
+                    position: relative;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,96 @@
+.wrapper {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // display: none;
+
+    .modal {
+        background-color: var(--primary-color);
+        width: 70rem;
+        border-radius: 5px;
+        padding-bottom: 2rem;
+        position: relative;
+
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            font-size: 18px;
+        }
+
+        .title {
+            font-weight: 700;
+            font-size: 16px;
+            text-transform: uppercase;
+            line-height: 19px;
+            padding: 15px 34px 15px;
+            border-bottom: 1px solid #e0e0e0;
+            margin: 0;
+            margin-bottom: 8px;
+            color: #000;
+        }
+        .content {
+            padding: 0rem 3.4rem 3rem;
+
+            .new-username {
+                font-weight: 500;
+                font-size: 14px;
+            }
+
+            .input-user {
+                width: 100%;
+                border: 1px solid #c4cdd5;
+                border-radius: 3px;
+                height: 4rem;
+                font-size: 16px;
+
+                &:focus-visible {
+                    outline: none;
+                }
+            }
+        }
+
+        .btn {
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 3.4rem;
+            height: 4.3rem;
+
+            .add,
+            .cancle {
+                height: 100%;
+                background: #e4a53d !important;
+                border: 1px solid #e4a53d !important;
+                color: #fff !important;
+                padding: 0 16px !important;
+                border-radius: 3px !important;
+                font-size: 14px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: 1rem;
+                transition: opacity 0.2s;
+
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+}
+
+.pencil {
+    padding: 2rem;
+    font-size: 1.2rem;
+    padding-top: 0.6rem;
+
+    &:hover {
+        color: var(--main-color);
+    }
+}

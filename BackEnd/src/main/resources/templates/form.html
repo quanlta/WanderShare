@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email thông báo đơn hàng</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+<h1 style="color: #333;">Thông báo đơn hàng</h1>
+<p style="color: #555;">Tên Khách hàng: <span th:text="${username}"></span></p>
+<p style="color: #555;">Cảm ơn bạn đã đặt Timeshare tại website của chúng tôi. Đơn hàng của bạn đã được nhận và đang được xử lý. Chi tiết đơn hàng của bạn như sau:</p>
+
+<table>
+    <thead>
+    <tr>
+        <th>Sản phẩm</th>
+        <th>Số lượng</th>
+        <th>Giá</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="user : ${users}">
+        <td th:text="${user.name}"></td>
+        <td th:text="${user.quality}"></td>
+        <td th:text="${user.price}"></td>
+    </tr>
+    </tbody>
+</table>
+
+<p style="color: #555;">Tổng thanh toán: <span th:text="${totalAmount}"></span></p>
+<p style="color: #555;">Số Điện Thoại: <span th:text="${phone}"></span></p>
+<p style="color: #555;">Chúng tôi sẽ thông báo cho bạn khi đơn hàng của bạn đã được xac nhan. Cảm ơn bạn đã mua hàng tại cửa hàng của chúng tôi.</p>
+<p style="color: #555;">Trân trọng,</p>
+<p style="color: #333;">[WanderShare]</p>
+</body>
+</html>

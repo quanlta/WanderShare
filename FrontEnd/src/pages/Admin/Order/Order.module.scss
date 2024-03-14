@@ -1,0 +1,70 @@
+.order {
+    background-color: rgb(246, 246, 246);
+    height: 100vh;
+    .data {
+        background-color: #fff;
+        margin-top: 1rem;
+    }
+
+    .header {
+        display: flex;
+        padding-bottom: 1.5rem;
+        .title {
+            flex: 5;
+            font-size: 2.5rem;
+            padding-left: 1rem;
+            font-weight: 600;
+        }
+        .search-start,
+        .search-end {
+            display: flex;
+            align-items: center;
+            border: 0.2px solid rgb(159, 158, 158);
+            border-radius: 10px;
+
+            input {
+                border: none;
+                outline: none;
+                background: transparent;
+                width: 15em;
+                padding-left: 1.5em;
+            }
+        }
+        .search-end {
+            margin-right: 2em;
+            margin-left: 0.8em;
+        }
+        .search-btn {
+            margin-right: 2em;
+            margin-top: 0.1em;
+            border: 0.2px solid rgb(159, 158, 158);
+            padding: 5px;
+            border-radius: 50%;
+        }
+    }
+}
+.payment {
+    padding-left: 1rem;
+}
+
+.active-button {
+    background-color: rgb(46, 206, 46);
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 10rem;
+}
+.pending-button {
+    background-color: rgb(247, 247, 109);
+    color: rgb(255, 0, 0);
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 10rem;
+}
+.address {
+    font-size: 12px;
+}

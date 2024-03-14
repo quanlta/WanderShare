@@ -1,0 +1,142 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e6e8ea;
+    height: 100vh;
+    .header {
+        padding-bottom: 20px;
+        img {
+            height: 11rem;
+            width: 11rem;
+            border-radius: 150px;
+        }
+    }
+    .content {
+        .content-box {
+            display: flex;
+
+            .content-box-left {
+                flex: 2;
+                padding-right: 7rem;
+                width: 60rem;
+                .content-box-left-image {
+                    height: 40rem;
+                }
+                .content-box-left-title {
+                    display: flex;
+                    align-items: center;
+                    padding-bottom: 2rem;
+                    img {
+                        width: 9rem;
+                        height: 9rem;
+                        margin-right: 1.5rem;
+                    }
+                    .thank-text {
+                        .thank {
+                            color: #333;
+                            font-weight: 600;
+                            font-size: 2rem;
+                        }
+                        h3 {
+                            color: #5d5f61;
+                        }
+                    }
+                }
+                .content-box-left-description {
+                    border: 1px solid #807e7e;
+                    .order-in4 {
+                        display: flex;
+                        padding: 1em;
+                        // .user-in4 {
+                        //     flex: 1;
+                        //     font-size: 1.7rem;
+                        //     .user-in4-title {
+                        //         font-size: 2.3rem;
+                        //         font-weight: 500;
+                        //         padding-bottom: 0.8rem;
+                        //     }
+                        //     .user-in4-des {
+                        //         padding-left: 0.5em;
+                        //         padding-bottom: 0.8rem;
+                        //     }
+                        // }
+                        .address-in4 {
+                            flex: 1;
+                            font-size: 1.7rem;
+
+                            .address-in4-title {
+                                font-size: 2.3rem;
+                                font-weight: 500;
+                                padding-bottom: 0.8rem;
+                            }
+                            .address-in4-des {
+                                padding-left: 0.5em;
+                                padding-bottom: 0.5rem;
+                                p {
+                                    padding-bottom: 1rem;
+                                    font-size: 20px;
+                                }
+                            }
+                        }
+                    }
+                    .order-method {
+                        display: flex;
+                        padding: 1em;
+                        .payment-method {
+                            flex: 1;
+                            font-size: 1.7rem;
+                            .payment-method-title {
+                                font-size: 2.3rem;
+                                font-weight: 500;
+                                padding-bottom: 0.8rem;
+                            }
+                            .payment-method-des {
+                                padding-left: 0.2em;
+                                padding-bottom: 0.8rem;
+                            }
+                        }
+                        .shipping-method {
+                            flex: 1;
+                            font-size: 1.7rem;
+                            .shipping-method-title {
+                                font-size: 2.3rem;
+                                font-weight: 500;
+                                padding-bottom: 0.8rem;
+                            }
+                            .shipping-method-des {
+                                padding-left: 0.2em;
+                                padding-bottom: 0.8rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .content-box-right {
+                flex: 1;
+                .content-footer-btn {
+                    padding-left: 20rem;
+                    padding-top: 2rem;
+                    .content-footer-btn-order {
+                        background-color: #357ebd;
+                        border-color: #4480b3;
+                        color: #fff;
+                        text-align: center;
+                        line-height: 40px;
+                        border-radius: 5px;
+                        font-weight: 400;
+                        font-size: 15px;
+                        border: 1px transparent solid;
+                        width: 20rem;
+                        height: 6rem;
+                    }
+                }
+
+                .content-box-right-image {
+                    height: 50rem;
+                    padding-top: 7em;
+                }
+            }
+        }
+    }
+}

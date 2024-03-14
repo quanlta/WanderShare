@@ -1,0 +1,126 @@
+.container {
+    margin-bottom: 5rem;
+    .content {
+        width: 1270px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 4rem;
+        user-select: none;
+        display: flex;
+
+        .timeshare-img {
+            width: 50.6rem;
+            height: 50.6rem;
+            border: 5px solid var(--main-color);
+            border-radius: 15px;
+        }
+
+        .text {
+            margin-left: 3rem;
+            flex: 1;
+
+            .title {
+                font-size: 24px;
+                font-weight: 700;
+            }
+
+            .shop {
+                margin-top: 1.5rem;
+
+                .price {
+                    font-size: 3rem;
+                    font-weight: 600;
+                    color: #e4a53d;
+                    font-family: 'Playball';
+                }
+
+                .action {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .shopping-cart {
+                        width: 35.5rem;
+                        height: 5rem;
+                        border: 2px solid var(--main-color);
+                        margin-top: 1rem;
+                        border-radius: 5px;
+                        display: flex;
+                        align-items: center;
+
+                        &:hover {
+                            opacity: 0.9;
+                        }
+
+                        .icon {
+                            width: 3rem;
+                            height: 3rem;
+                            color: var(--main-color);
+                            padding: 0 1.5rem;
+                        }
+
+                        .text_1 {
+                            font-size: 1.4rem;
+                            font-weight: 600;
+                            background-color: var(--main-color);
+                            width: 100%;
+                            height: 100%;
+                            text-align: center;
+                            color: #fff;
+
+                            .free {
+                                font-size: 1.2rem;
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .des {
+                margin-top: 1rem;
+                font-size: 1.4rem;
+                font-weight: 400;
+            }
+
+            .description {
+                margin-top: 2rem;
+                font-size: 1.6rem;
+                color: var(--main-color);
+                font-weight: 500;
+            }
+
+            .support {
+                width: 100%;
+                height: 6.6rem;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                margin-left: -1rem;
+
+                .support-item {
+                    display: flex;
+                    width: 36rem;
+                    height: 9.6rem;
+                    padding: 1rem;
+                    margin-top: 1rem;
+                    align-items: center;
+                    box-shadow: 0 0px 2px 0 rgba(60, 64, 67, 0.1), 0 0px 6px 0px rgba(60, 64, 67, 0.25);
+                    .text {
+                        padding-left: 10px;
+                        .title {
+                            font-size: 1.6rem;
+                            font-weight: 600;
+                            color: var(--main-color);
+                        }
+
+                        .des {
+                            font-size: 1.4rem;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

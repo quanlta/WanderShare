@@ -1,0 +1,9 @@
+.home {
+    display: flex;
+    font-size: 18px;
+    .homeContainer {
+        width: calc(100vw - 266px);
+        position: absolute;
+        right: 0;
+    }
+}

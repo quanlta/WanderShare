@@ -1,0 +1,80 @@
+.footer {
+    background-color: var(--background-color);
+    height: 50rem;
+    user-select: none;
+}
+
+.footer__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 8rem;
+    width: 1300px;
+    border-bottom: 2px solid var(--main-color);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer__top .phone,
+.footer__top .email {
+    display: flex;
+    align-items: center;
+    height: 3.2rem;
+}
+
+.footer__top .phone .phone-icon,
+.footer__top .email .email-icon {
+    width: 3.2rem;
+    height: 3.2rem;
+    color: var(--main-color);
+}
+
+.footer__top .phone span,
+.footer__top .email span {
+    font-size: 13px;
+    width: 20rem;
+    margin-left: 15px;
+}
+
+.footer__body {
+    display: flex;
+    justify-content: space-around;
+    height: 39rem;
+    width: 130rem;
+    border-bottom: 2px solid var(--main-color);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer__body .col {
+    margin-top: 40px;
+}
+
+.footer__body .col .title {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--main-color);
+}
+
+.footer__body .col .subtitle {
+    line-height: 40px;
+    margin-top: 30px;
+}
+
+.footer__body .col .subtitle h4 {
+    font-size: 13px;
+}
+
+.footer__body .contact-icons {
+    display: flex;
+    margin-top: 30px;
+}
+
+.footer__body .contact-icons img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.footer__body .contact-icons a + a {
+    margin-left: 10px;
+}

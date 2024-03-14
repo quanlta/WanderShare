@@ -1,0 +1,398 @@
+.container {
+    font-family: Helvetica Neue, sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+
+    .modalBackground {
+        width: 100vw;
+        height: 100vh;
+        background: transparent;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        margin-left: 20rem;
+        .modalContainer {
+            width: 600px;
+            height: 650px;
+            border-radius: 12px;
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+            display: flex;
+            flex-direction: column;
+            padding: 25px;
+
+            .titleCloseBtn {
+                display: flex;
+                justify-content: flex-end;
+                button {
+                    background-color: transparent;
+                    border: none;
+                    font-size: 25px;
+                    cursor: pointer;
+                }
+            }
+
+            .in4 {
+                padding-top: 3rem;
+                width: 845px;
+
+                .user-in4 {
+                    display: flex;
+
+                    .user-in4-text {
+                        height: 18px;
+                        margin-left: 3px;
+                        font-weight: 600;
+                        font-size: 15px;
+                        margin-left: 5px;
+                        margin-bottom: 20px;
+                    }
+                    .name {
+                        margin-right: 30px;
+                        input {
+                            width: 25rem;
+                            margin-top: -50px;
+                            height: 40px;
+                            border-radius: 5px;
+                            border: solid 0.7px rgb(103, 100, 100);
+                            padding-left: 10px;
+                            font-size: 13px;
+                        }
+                    }
+                    .phone {
+                        input {
+                            width: 25rem;
+                            margin-top: -50px;
+                            height: 40px;
+                            border-radius: 5px;
+                            border: solid 0.7px rgb(103, 100, 100);
+                            padding-left: 10px;
+                            font-size: 13px;
+                        }
+                    }
+                }
+
+                .address {
+                    p {
+                        padding-top: 30px;
+                        margin-left: 5px;
+                        font-weight: 600;
+                        font-size: 15px;
+                        margin-bottom: 20px;
+                    }
+                    input {
+                        width: 53rem;
+                        margin-top: -50px;
+                        height: 40px;
+                        border-radius: 5px;
+                        border: solid 0.7px rgb(103, 100, 100);
+                        padding-left: 10px;
+                        font-size: 13px;
+                    }
+                }
+                .city-address {
+                    display: flex;
+                    padding-top: 10px;
+
+                    .text {
+                        margin-left: 5px;
+                        font-weight: 600;
+                        font-size: 15px;
+                        margin-bottom: 20px;
+                    }
+                    .district {
+                        .select {
+                            width: 25rem;
+                            margin-top: -50px;
+                            height: 40px;
+                            border-radius: 5px;
+                            border: solid 0.7px rgb(103, 100, 100);
+                            padding-left: 10px;
+                            font-size: 13px;
+                            option {
+                                color: rgb(103, 100, 100);
+                            }
+                        }
+                    }
+                    .city {
+                        margin-right: 30px;
+                        .select {
+                            width: 25rem;
+                            margin-top: -50px;
+                            height: 40px;
+                            border-radius: 5px;
+                            border: solid 0.7px rgb(103, 100, 100);
+                            padding-left: 10px;
+                            font-size: 13px;
+                            option {
+                                color: rgb(103, 100, 100);
+                            }
+                        }
+                    }
+                }
+                .email {
+                    p {
+                        padding-top: 15px;
+                        margin-left: 5px;
+                        font-weight: 600;
+                        font-size: 15px;
+                        margin-bottom: 20px;
+                    }
+                    input {
+                        width: 53rem;
+                        margin-top: -50px;
+                        height: 40px;
+                        border-radius: 5px;
+                        border: solid 0.7px rgb(103, 100, 100);
+                        padding-left: 10px;
+                        font-size: 13px;
+                    }
+                }
+            }
+            .footer {
+                flex: 20%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                button {
+                    width: 150px;
+                    height: 45px;
+                    margin: 10px;
+                    border: none;
+                    background-color: cornflowerblue;
+                    color: white;
+                    border-radius: 8px;
+                    font-size: 20px;
+                    cursor: pointer;
+                }
+                .cancel {
+                    background-color: red;
+                }
+            }
+        }
+    }
+    .content {
+        display: flex;
+        width: 100%;
+        // padding: 50px 50px 50px;
+
+        .left {
+            box-sizing: border-box;
+            flex: 3.2;
+            // margin-left: 3%;
+            padding-left: 8rem;
+            padding-right: 10rem;
+            padding-bottom: 50px;
+            .logo {
+                padding-top: 0.9rem;
+                display: flex;
+                justify-content: center;
+                img {
+                    width: 10rem;
+                    height: 10rem;
+                    border-radius: 50%;
+                }
+            }
+            .content {
+                display: flex;
+                padding-top: 3rem;
+
+                .ship-in4 {
+                    flex: 3.3;
+                    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+                    margin-right: 6rem;
+                    .header {
+                        padding: 2rem;
+                        display: flex;
+                        align-items: center;
+                        .title {
+                            font-size: 20px;
+                            padding-right: 15rem;
+                        }
+                        .add-new-address {
+                            // height: 100%;
+                            background-color: #357ebd;
+                            border-color: #4480b3;
+                            color: #fff;
+                            text-align: center;
+                            line-height: 40px;
+                            border-radius: 5px;
+                            font-weight: 400;
+                            font-size: 15px;
+                            border: 1px transparent solid;
+                        }
+                    }
+                    .list-address {
+                        padding: 1rem;
+                        .list-address-radio-box {
+                            display: flex;
+                            flex-direction: column;
+                            .list-address-radio-box-in4 {
+                                display: flex;
+                                padding-bottom: 2rem;
+                                input {
+                                    margin-right: 1.2rem;
+                                    height: 2rem;
+                                    width: 4rem;
+                                }
+                                .radio-box-in4-content {
+                                    .name-phone {
+                                        display: flex;
+                                        padding-bottom: 0.5rem;
+                                        .name {
+                                            display: flex;
+                                            padding-right: 1rem;
+                                        }
+                                        .phone {
+                                            display: flex;
+                                            padding-left: 1rem;
+                                        }
+                                        .text {
+                                            color: black;
+                                            font-weight: 700;
+                                            padding-right: 1rem;
+                                        }
+                                        .divider {
+                                            height: 2.5rem;
+                                            width: 1px;
+                                            background-color: black;
+                                        }
+                                    }
+                                    .address-ship {
+                                        display: flex;
+                                        .text {
+                                            color: black;
+                                            font-weight: 700;
+                                            padding-right: 1rem;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .payment-in4 {
+                    flex: 2.2;
+                    .payment-content {
+                        .payment-content-radio-box {
+                            padding-bottom: 20px;
+
+                            .text {
+                                font-size: 18px;
+                                margin-right: 20px;
+                            }
+                            .image {
+                                padding-right: 10px;
+                                width: 50px;
+                                height: 50px;
+                            }
+                            .cod {
+                                margin: 3rem 0 2rem 0;
+                                border: solid 1px rgb(138, 136, 136);
+                                border-radius: 10px;
+                                .cod-content {
+                                    display: flex;
+                                    align-items: center;
+                                    padding: 15px;
+                                    .text {
+                                        margin-left: 10px;
+                                    }
+                                    .radio {
+                                        width: 2rem;
+                                        height: 2rem;
+                                        margin-right: 1rem;
+                                    }
+                                }
+                            }
+                            .atm {
+                                border: solid 1px rgb(138, 136, 136);
+                                border-radius: 10px;
+                                .atm-content {
+                                    display: flex;
+                                    align-items: center;
+                                    padding: 15px;
+                                    .radio {
+                                        width: 2rem;
+                                        height: 2rem;
+                                        margin-right: 1rem;
+                                    }
+                                }
+                                img {
+                                    margin-right: 10px;
+                                    display: flex;
+                                    align-self: center;
+                                    width: 50px;
+                                    height: 50px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .right {
+            background-color: #f8f9f6;
+            flex: 2;
+            // width: 100px;
+            border-left: 1px solid #e1e1e1;
+            height: 100vh;
+
+            .right-content {
+                width: 100%;
+                .right-content-header {
+                    width: 100%;
+                    // display: block;
+                    .list-order-in4 {
+                        width: 100%;
+                        align-items: center;
+                        display: flex;
+                        padding: 5px;
+                        padding-top: 15px;
+                        padding-right: 20px;
+                    }
+                    .content-footer-btn {
+                        display: flex;
+                        color: #2a9dcc;
+                        padding-top: 50px;
+                        justify-content: center;
+                        padding-left: 20px;
+                        padding-right: 25px;
+                        .content-footer-btn-link {
+                            font-size: 18px;
+                            flex: 3;
+                            padding-top: 10px;
+
+                            .content-footer-btn-link-title {
+                                text-decoration: none;
+                                cursor: pointer;
+                                margin-left: 4px;
+                                &:hover {
+                                    .content-footer-btn-link-icon {
+                                        padding-left: 3px;
+                                    }
+                                }
+                                .content-footer-btn-link-icon {
+                                    margin-right: 5px;
+                                }
+                            }
+                        }
+                        .content-footer-btn-order {
+                            flex: 1;
+                            height: 100%;
+                            background-color: #357ebd;
+                            border-color: #4480b3;
+                            color: #fff;
+                            text-align: center;
+                            line-height: 40px;
+                            border-radius: 5px;
+                            font-weight: 400;
+                            font-size: 15px;
+                            border: 1px transparent solid;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
